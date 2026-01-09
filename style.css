@@ -1,0 +1,53 @@
+/* Pengaturan Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container-jadwal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Pengaturan Tabel */
+.table-jadwal {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+}
+
+.table-jadwal th, .table-jadwal td {
+    border: 1px solid #333;
+    padding: 12px;
+}
+
+/* Warna Latar Belakang */
+.bg-grey {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.bg-senin {
+    background-color: #ffcccb; /* Merah Muda */
+}
+
+.bg-selasa {
+    background-color: #90ee90; /* Hijau Muda */
+}
+
+.bg-rabu {
+    background-color: #ccccff; /* Biru Muda */
+}
+
+.bg-kamis {
+    background-color: #fafad2; /* Kuning Muda */
+}
